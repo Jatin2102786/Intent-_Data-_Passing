@@ -9,13 +9,14 @@ import android.widget.Toast
 import android.widget.Toolbar
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?)
-    {
-        lateinit var etName:EditText
+    lateinit var etName:EditText
         lateinit var etAge:EditText
         lateinit var etHeight:EditText
         lateinit var btn:Button
         lateinit var toolbar:Toolbar
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
