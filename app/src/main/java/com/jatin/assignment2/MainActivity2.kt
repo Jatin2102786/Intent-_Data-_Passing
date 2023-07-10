@@ -7,14 +7,15 @@ import android.widget.TextView
 import android.widget.Toolbar
 
 class MainActivity2 : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        lateinit var etName:TextView
+     lateinit var etName:TextView
         lateinit var etAge:TextView
         lateinit var etHeight:TextView
         lateinit var toolbar: Toolbar
         var name=""
         var age=""
         var height=""
+    override fun onCreate(savedInstanceState: Bundle?) {
+       
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         etName=findViewById(R.id.tvname)
